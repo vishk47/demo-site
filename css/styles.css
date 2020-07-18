@@ -1,0 +1,150 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+}
+h1{
+font-family: 'Montserrat-bold', sans-serif;
+line-height: 1.5;
+font-size:  3.5rem;
+color: white;
+}
+.container-fliud{
+  padding: 3% 15% 7%;
+}
+.img-1{
+  width: 60%;
+   transform: rotate(20deg);
+   position: absolute;
+   right: 30%;
+
+}
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* 2nd section */
+
+#features{
+  padding: 7rem;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+.features-box{
+  text-align: center;
+  padding: 5%;
+
+}
+.features-logo{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.features-logo:hover{
+  color: #ff4c68;
+}
+/* testimonials section-3 */
+#testimonials{
+
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+}
+h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press section */
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  margin:20px 20px 50px;
+  width: 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-card{
+  padding: 3% 2%;
+}
+
+
+@media(max-width:1028px) {
+  .img-1{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+/* call to action section */
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+    padding: 5rem;
+}
+.cta-h3{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 7rem;
+}
+.cta-button{
+  margin:0 3% 5% 0;
+}
+
+/* footer section */
+#footer{
+  text-align:center;
+  padding: 5rem;
+}
+.footer-logo{
+  margin: 0 10px 25px;
+}
+.footer-link{
+  color:#8f8f8f ;
+}
